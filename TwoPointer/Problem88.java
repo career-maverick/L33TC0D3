@@ -1,8 +1,5 @@
 package TwoPointer;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Problem88 {
     public static void main(String[] args) {
         int[] nums1 = {1, 2, 3, 0, 0, 0};
@@ -11,11 +8,10 @@ public class Problem88 {
         int n = 3;
 
         merge(nums1, m, nums2, n);
-        
-                // Print the merged array
-                for (int num : nums1) {
-                    System.out.print(num + " ");
-                }
+
+        for (int num : nums1) {
+            System.out.print(num + " ");
+        }
     }
         
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
